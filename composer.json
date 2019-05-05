@@ -1,18 +1,31 @@
 {
-    "name": "amazeeio/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer hosted on amazee.io",
+    "name": "amazeeio/amazee-lexer-parser",
+    "description": "Amazee Lexer & Parser test",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "Michael Schmid michael@amazee.io",
-            "role": "CTO"
+            "name": "Jacinto Capote Robles jacintocapote@gmail.com",
+            "role": "Senior Developer"
         }
     ],
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "custom/lexer-parser",
+                "version": "dev-master",
+                "type":"drupal-module",
+                "source": {
+                    "url": "git@github.com:jacintocapote/lexer-parser.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
@@ -27,7 +40,8 @@
         "drupal/search_api": "^1.6",
         "drupal/search_api_solr": "^1.2",
         "drupal/varnish_purge": "^1.10",
-        "drupal/purge": "^3.0"
+        "drupal/purge": "^3.0",
+        "custom/lexer-parser": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",

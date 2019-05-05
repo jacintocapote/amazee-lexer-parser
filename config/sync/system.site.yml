@@ -1,11 +1,11 @@
-uuid: e20aa53c-f901-44d3-b2a7-2a09e4fabe0a
-name: Site-Install
-mail: admin@example.com
+uuid: 4d9ee08b-bc4d-4f95-9bb6-f83bba99ca73
+name: 'Amazee Lexer & Parser'
+mail: jacintocapote@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
