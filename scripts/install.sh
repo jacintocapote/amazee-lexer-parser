@@ -5,10 +5,10 @@ echo "Executing composer install"
 # Running 'composer install' to keep the folder structure and content up to
 # date with the current branch.
 ###
-docker-compose exec php_apache /bin/bash -c "cd .. && composer install"
+docker-compose exec cli
 echo ""
 echo "Installing amazee lexer parser"
-docker-compose exec php_apache drush si:install --account-name=amazee --account-pass=test --site-name="Amazee Lexer & Parser" --site-mail="jacintocapote@gmail.com" --existing-config --yes --verbose
+docker-compose exec cli drush si:install --account-name=amazee --account-pass=test --site-name="Amazee Lexer & Parser" --site-mail="jacintocapote@gmail.com" --existing-config --yes --verbose
 echo ""
 echo "Clearing cache"
-docker-compose exec php_apache drush cr
+docker-compose exec cli drush cr
