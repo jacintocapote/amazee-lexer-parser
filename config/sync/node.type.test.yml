@@ -1,0 +1,11 @@
+uuid: 5d471dd9-0d68-4462-8801-bdf95171983a
+langcode: en
+status: true
+dependencies: {  }
+name: Test
+type: test
+description: 'Test content type for show Lexer & Parser formatter'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

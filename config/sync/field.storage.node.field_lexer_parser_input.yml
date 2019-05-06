@@ -1,0 +1,21 @@
+uuid: 4025388f-956a-4959-a415-01c7a1219496
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_lexer_parser_input
+field_name: field_lexer_parser_input
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

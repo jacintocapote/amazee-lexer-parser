@@ -1,0 +1,34 @@
+uuid: acac13be-099d-4a93-811d-018d91690ecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test.field_lexer_parser_input
+    - node.type.test
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  field_lexer_parser_input:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

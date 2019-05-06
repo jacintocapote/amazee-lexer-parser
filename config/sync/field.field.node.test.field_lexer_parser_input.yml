@@ -1,0 +1,19 @@
+uuid: 792b82f0-aec6-4cfa-a483-b043f1f26a92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lexer_parser_input
+    - node.type.test
+id: node.test.field_lexer_parser_input
+field_name: field_lexer_parser_input
+entity_type: node
+bundle: test
+label: 'Lexer & Parser input'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

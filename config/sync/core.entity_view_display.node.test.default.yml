@@ -1,0 +1,28 @@
+uuid: 01809e64-56ab-480a-ae19-4afa3b4fd4cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test.field_lexer_parser_input
+    - node.type.test
+  module:
+    - lexer_parser
+    - user
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  field_lexer_parser_input:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: lexer_parser
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
